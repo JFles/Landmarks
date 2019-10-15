@@ -34,7 +34,7 @@ struct HikeDetail: View {
                                 : Color.accentColor)
                             .animation(nil)
                     }
-                }
+                }.padding(.top, 50) // added this padding to prevent the graph overlapping the buttons
             }
         }
     }

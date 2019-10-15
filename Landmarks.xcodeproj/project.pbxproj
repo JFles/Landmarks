@@ -203,9 +203,9 @@
 		6029AC3A234EB4E200BF4F6E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6029AC3B234EB55700BF4F6E /* SubViews */,
 				604482192351760D00D68A7D /* HikeDetail.swift */,
 				604482172351760D00D68A7D /* HikeView.swift */,
-				6029AC3B234EB55700BF4F6E /* SubViews */,
 				60DBA8CD234EC2C400084B37 /* LandmarkDetail.swift */,
 				60DBA918234FE09E00084B37 /* LandmarkList.swift */,
 			);
