@@ -32,6 +32,8 @@
 		60DBA912234EC4BA00084B37 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DBA910234EC4B900084B37 /* Data.swift */; };
 		60DBA917234FDBE700084B37 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DBA916234FDBE700084B37 /* LandmarkRow.swift */; };
 		60DBA919234FE09E00084B37 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DBA918234FE09E00084B37 /* LandmarkList.swift */; };
+		60E593EA2355697600F98391 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E593E92355697600F98391 /* Home.swift */; };
+		60E593ED23560B1000F98391 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E593EC23560B1000F98391 /* CategoryRow.swift */; };
 		60E8552E2350036F0088C977 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 60E855212350036E0088C977 /* landmarkData.json */; };
 		60E8552F2350036F0088C977 /* silversalmoncreek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60E855222350036E0088C977 /* silversalmoncreek.jpg */; };
 		60E855302350036F0088C977 /* chincoteague.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60E855232350036E0088C977 /* chincoteague.jpg */; };
@@ -97,6 +99,8 @@
 		60DBA910234EC4B900084B37 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		60DBA916234FDBE700084B37 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		60DBA918234FE09E00084B37 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		60E593E92355697600F98391 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		60E593EC23560B1000F98391 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		60E855212350036E0088C977 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		60E855222350036E0088C977 /* silversalmoncreek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silversalmoncreek.jpg; sourceTree = "<group>"; };
 		60E855232350036E0088C977 /* chincoteague.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chincoteague.jpg; sourceTree = "<group>"; };
@@ -208,6 +212,7 @@
 				604482172351760D00D68A7D /* HikeView.swift */,
 				60DBA8CD234EC2C400084B37 /* LandmarkDetail.swift */,
 				60DBA918234FE09E00084B37 /* LandmarkList.swift */,
+				60E593E92355697600F98391 /* Home.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 		6029AC3B234EB55700BF4F6E /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
+				60E593EB23560AF700F98391 /* Categories */,
 				604482292351791100D68A7D /* Hike */,
 				604482122351701C00D68A7D /* ListView */,
 				6044821123516FFB00D68A7D /* DetailView */,
@@ -307,6 +313,14 @@
 				60E8553C2350070B0088C977 /* UserData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		60E593EB23560AF700F98391 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				60E593EC23560B1000F98391 /* CategoryRow.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -454,6 +468,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60E593ED23560B1000F98391 /* CategoryRow.swift in Sources */,
 				602469E223515D2900721E53 /* HexagonParameters.swift in Sources */,
 				60270697234E8369002C4F6E /* AppDelegate.swift in Sources */,
 				60AFF35B235112E800DA94DC /* Badge.swift in Sources */,
@@ -467,6 +482,7 @@
 				6029AC3F234EB71F00BF4F6E /* MapView.swift in Sources */,
 				6044821D2351760D00D68A7D /* HikeDetail.swift in Sources */,
 				6044820F23516F6D00D68A7D /* BadgeBackground.swift in Sources */,
+				60E593EA2355697600F98391 /* Home.swift in Sources */,
 				60448228235178C100D68A7D /* Landmark.swift in Sources */,
 				60DBA8CE234EC2C400084B37 /* LandmarkDetail.swift in Sources */,
 				60DBA917234FDBE700084B37 /* LandmarkRow.swift in Sources */,
